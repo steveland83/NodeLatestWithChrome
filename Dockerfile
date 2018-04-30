@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:8.11.1
 
 # update apt-get
 RUN apt-get update; apt-get clean
