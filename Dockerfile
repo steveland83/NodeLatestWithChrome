@@ -1,5 +1,4 @@
-FROM node:8.11.1
-
+FROM node:latest
 # update apt-get
 RUN apt-get update; apt-get clean
 # Install xvfb.
